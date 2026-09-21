@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rumbo | School transport coordination</title>
+  <meta name="description" content="Rumbo helps families and school transport drivers coordinate school trips through clear status updates, relevant alerts and trip milestones.">
+  <meta name="keywords" content="Rumbo, school transport, families, drivers, trip status, school mobility">
+  <meta name="author" content="Rumbo">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Roboto:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
+
+  <header class="site-header" id="home">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="Rumbo home">
+        <span class="brand-mark" aria-hidden="true">R</span>
+        <span>Rumbo</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+        <a href="#benefits" data-i18n="navBenefits">Benefits</a>
+        <a href="#how" data-i18n="navHow">How it works</a>
+        <a href="#faq" data-i18n="navFaq">FAQ</a>
+        <a href="#contact" data-i18n="navContact">Contact</a>
+        <div class="nav-actions">
+          <button class="language-toggle" type="button" aria-label="Change language">ES</button>
+          <a class="btn btn-primary btn-sm" href="#segments" data-i18n="navStart">Explore Rumbo</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero section-cream">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow" data-i18n="eyebrow">School transport coordination</span>
+          <h1 data-i18n="heroTitle">Confidence in every school trip.</h1>
+          <p data-i18n="heroText">Rumbo centralizes trip status, pickup and delivery milestones, delays and incidents so families stay informed without distracting the driver.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#benefits" data-i18n="heroPrimary">Discover the benefits</a>
+            <a class="btn btn-secondary" href="#contact" data-i18n="heroSecondary">Contact us</a>
+          </div>
+        </div>
+
+        <div class="trip-preview" aria-label="Illustrative trip status card">
+          <div class="preview-head">
+            <div>
+              <small data-i18n="previewLabel">Current trip</small>
+              <strong data-i18n="previewRoute">Morning route</strong>
+            </div>
+            <span class="status-pill" data-i18n="previewStatus">In progress</span>
+          </div>
+          <ol class="timeline">
+            <li class="complete"><span></span><div><strong data-i18n="stepPickup">Pickup confirmed</strong><small>07:18</small></div></li>
+            <li class="active"><span></span><div><strong data-i18n="stepRoute">Trip in progress</strong><small data-i18n="previewUpdate">Last update 07:31</small></div></li>
+            <li><span></span><div><strong data-i18n="stepArrival">School arrival</strong><small data-i18n="previewPending">Pending</small></div></li>
+          </ol>
+          <div class="preview-note" data-i18n="previewNote">Relevant events appear here in chronological order.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="benefits section-cream" id="benefits">
+      <div class="container">
+        <header class="section-heading compact">
+          <h2 data-i18n="benefitsTitle">Useful information without unnecessary noise</h2>
+          <p data-i18n="benefitsText">Rumbo focuses on the events families and drivers need to coordinate the trip.</p>
+        </header>
+
+        <div class="card-grid card-grid-3">
+          <article class="feature-card">
+            <div class="icon-tile" aria-hidden="true">✓</div>
+            <h3 data-i18n="benefit1Title">Clear trip status</h3>
+            <p data-i18n="benefit1Text">Families can quickly see whether the student was picked up, the trip is in progress or the delivery was completed.</p>
+          </article>
+          <article class="feature-card">
+            <div class="icon-tile" aria-hidden="true">!</div>
+            <h3 data-i18n="benefit2Title">Relevant alerts</h3>
+            <p data-i18n="benefit2Text">Delays and incidents are recorded once and communicated to the people who need to know.</p>
+          </article>
+          <article class="feature-card">
+            <div class="icon-tile" aria-hidden="true">↔</div>
+            <h3 data-i18n="benefit3Title">Less repetitive coordination</h3>
+            <p data-i18n="benefit3Text">Trip milestones reduce the need for repeated calls and scattered messages during the route.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="steps section-cream" id="how">
+      <div class="container">
+        <header class="section-heading">
+          <h2 data-i18n="howTitle">How does Rumbo work?</h2>
+          <p data-i18n="howText">A simple sequence of milestones keeps the trip understandable from start to finish.</p>
+        </header>
+
+        <div class="card-grid card-grid-4 step-grid">
+          <article class="step-card"><span class="step-num">01</span><h3 data-i18n="how1Title">Pickup</h3><p data-i18n="how1Text">The driver confirms the student's pickup while the vehicle is stopped.</p></article>
+          <article class="step-card"><span class="step-num">02</span><h3 data-i18n="how2Title">Trip</h3><p data-i18n="how2Text">Families consult the current stage and the chronological trip timeline.</p></article>
+          <article class="step-card"><span class="step-num">03</span><h3 data-i18n="how3Title">Delay or incident</h3><p data-i18n="how3Text">An unexpected event can be recorded once and shared with the affected families.</p></article>
+          <article class="step-card"><span class="step-num">04</span><h3 data-i18n="how4Title">Delivery</h3><p data-i18n="how4Text">The delivery is confirmed and becomes part of the trip history.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="segments" id="segments">
+      <div class="container">
+        <header class="section-heading">
+          <h2 data-i18n="segmentsTitle">Designed for both sides of the trip</h2>
+        </header>
+        <div class="segment-grid">
+          <article class="segment-card">
+            <span class="segment-label" data-i18n="parentsLabel">Parents / Tutors</span>
+            <h3 data-i18n="parentsTitle">Know what is happening without calling the driver.</h3>
+            <p data-i18n="parentsText">Check the current status, review milestones, receive relevant alerts and keep control over notification preferences.</p>
+            <a href="#contact" class="text-link" data-i18n="parentsCta">I am a parent or tutor →</a>
+          </article>
+          <article class="segment-card dark">
+            <span class="segment-label" data-i18n="driversLabel">Drivers</span>
+            <h3 data-i18n="driversTitle">Keep the route organized with fewer interruptions.</h3>
+            <p data-i18n="driversText">Manage the route, students and important events with short actions designed for use while the vehicle is safely stopped.</p>
+            <a href="#contact" class="text-link" data-i18n="driversCta">I am a driver →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq-section" id="faq">
+      <div class="container faq-container">
+        <header class="section-heading">
+          <h2 data-i18n="faqTitle">Frequently asked questions</h2>
+          <p data-i18n="faqText">Basic questions about the scope and use of Rumbo.</p>
+        </header>
+
+        <div class="faq-list">
+          <article class="faq-item">
+            <button class="faq-question" type="button" aria-expanded="false"><span data-i18n="faq1Q">Does Rumbo continuously track a child's location?</span><span>⌄</span></button>
+            <div class="faq-answer"><p data-i18n="faq1A">The initial scope focuses on confirmed trip states and milestones. Continuous GPS tracking is not required for the MVP.</p></div>
+          </article>
+          <article class="faq-item">
+            <button class="faq-question" type="button" aria-expanded="false"><span data-i18n="faq2Q">Who can consult a student's information?</span><span>⌄</span></button>
+            <div class="faq-answer"><p data-i18n="faq2A">The product is designed so that access is limited to authorized users according to their role and relationship with the student.</p></div>
+          </article>
+          <article class="faq-item">
+            <button class="faq-question" type="button" aria-expanded="false"><span data-i18n="faq3Q">Does the driver need to interact with Rumbo while driving?</span><span>⌄</span></button>
+            <div class="faq-answer"><p data-i18n="faq3A">No. Operational actions are designed to be short and performed while the vehicle is stopped.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="container contact-grid">
+        <div>
+          <span class="eyebrow" data-i18n="contactEyebrow">Contact</span>
+          <h2 data-i18n="contactTitle">Have a question about Rumbo?</h2>
+          <p data-i18n="contactText">Send us a message. In this AV1 version the form validates and stores the request locally in the browser as prototype evidence.</p>
+          <div class="legal-links">
+            <a href="./terms.html" data-i18n="terms">Terms of Service</a>
+            <a href="./privacy.html" data-i18n="privacy">Privacy Policy</a>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contact-form" novalidate>
+          <label><span data-i18n="nameLabel">Name</span><input type="text" name="name" required autocomplete="name"></label>
+          <label><span data-i18n="emailLabel">Email</span><input type="email" name="email" required autocomplete="email"></label>
+          <label><span data-i18n="messageLabel">Message</span><textarea name="message" rows="5" required></textarea></label>
+          <button class="btn btn-primary" type="submit" data-i18n="send">Send message</button>
+          <p class="form-message" id="form-message" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-bottom">
+      <span>© 2026 Rumbo · UPC Web Applications</span>
+      <div class="footer-links">
+        <a href="./terms.html" data-i18n="terms">Terms of Service</a>
+        <a href="./privacy.html" data-i18n="privacy">Privacy Policy</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./js/app.js"></script>
+</body>
+</html>
