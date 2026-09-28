@@ -42,3 +42,9 @@ Se utiliza GitFlow con `main`, `develop` y ramas `feature/*`. Los commits siguen
 - Project Report: https://github.com/AIpaca-UPC/web-applications-project-report
 - Frontend Web Application: https://github.com/AIpaca-UPC/web-applications-web-app
 - Web Services: https://github.com/AIpaca-UPC/web-applications-web-service
+
+## Deployment
+
+Production URL: https://aipaca-upc.github.io/landing-page/
+
+Deployment source: `gh-pages` branch.
