@@ -113,6 +113,26 @@
             "role": "San Ignacio School"
         }
     },
+    "team": {
+        "title": "Our team",
+        "subtitle": "Meet the people behind the development of Rumbo.",
+        "career": "Software Engineering",
+        "marcelo": {
+            "description": "Adaptable and collaborative, with the ability to learn quickly and knowledge of JavaScript technologies."
+        },
+        "alejandro": {
+            "description": "Focused on technical development, with experience in Python, C++, React Native and collaborative work using Scrum."
+        },
+        "kevin": {
+            "description": "Focused on software architecture, databases and development with Python and C++, working with agile methodologies."
+        },
+        "leonardo": {
+            "description": "Interested in creating clear and functional technology solutions, with knowledge of C++, Python and academic projects."
+        },
+        "alexandra": {
+            "description": "Focused on systems development, applied research and prototyping, with knowledge of Python and C++."
+        }
+    },
     "faq": {
         "title": "Frequently Asked Questions",
         "subtitle": "Do you have questions about security or how the platform works? Find the answers here.",

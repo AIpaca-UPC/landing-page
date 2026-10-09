@@ -113,6 +113,26 @@
             "role": "Colegio San Ignacio"
         }
     },
+    "team": {
+        "title": "Nuestro equipo",
+        "subtitle": "Conoce a las personas detrás del desarrollo de Rumbo.",
+        "career": "Ingeniería de Software",
+        "marcelo": {
+            "description": "Adaptable y colaborativo, con facilidad para aprender rápidamente y conocimientos en tecnologías JavaScript."
+        },
+        "alejandro": {
+            "description": "Orientado al desarrollo técnico, con experiencia en Python, C++, React Native y trabajo colaborativo con Scrum."
+        },
+        "kevin": {
+            "description": "Enfocado en arquitectura de software, bases de datos y desarrollo con Python y C++, trabajando bajo metodologías ágiles."
+        },
+        "leonardo": {
+            "description": "Interesado en crear soluciones tecnológicas claras y funcionales, con conocimientos en C++, Python y proyectos académicos."
+        },
+        "alexandra": {
+            "description": "Enfocada en desarrollo de sistemas, investigación aplicada y prototipado, con conocimientos en Python y C++."
+        }
+    },
     "faq": {
         "title": "Preguntas Frecuentes",
         "subtitle": "¿Tienes dudas sobre la seguridad o el funcionamiento técnico? Aquí las aclaramos.",
