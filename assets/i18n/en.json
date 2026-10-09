@@ -11,7 +11,8 @@
     "hero": {
         "title": "Peace of mind on<br>every trip.",
         "description": "Connect parents and drivers in real time. Monitor stops, receive incident alerts and maintain direct communication throughout the entire school trip.",
-        "download": "Download for parents"
+        "download": "Download for parents",
+        "demo": "Try Demo"
     },
     "benefits": {
         "title": "<span class=\"marker\">Benefits</span> designed for complete peace of mind",
@@ -111,7 +112,8 @@
     "cta": {
         "title": "Start feeling more at ease today",
         "description": "Download the app on your smartphone or contact us to integrate Rumbo with your school.<br>Available for iOS and Android free of charge.",
-        "download": "Download for parents"
+        "download": "Download for parents",
+        "demo": "Try Demo"
     },
     "footer": {
         "description": "Real-time school transportation coordination and safety. Connecting families, schools and drivers through reliable technology.",

@@ -1248,3 +1248,97 @@ button:focus-visible {
     width: fit-content;
   }
 }
+
+/* ===============================
+   CTA ACTIONS
+================================ */
+
+.cta-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.btn-demo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 12px 22px;
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+
+  background: transparent;
+  color: #ffffff;
+
+  font-family: inherit;
+  font-weight: 700;
+  text-decoration: none;
+
+  transition: 0.2s ease;
+}
+
+.btn-demo:hover {
+  background: #ffffff;
+  color: #124c46;
+}
+
+@media (max-width: 650px) {
+  .cta-actions {
+    width: 100%;
+  }
+
+  .cta-actions .btn,
+  .cta-actions .btn-demo {
+    flex: 1 1 180px;
+    text-align: center;
+  }
+}
+
+/* ===============================
+   HERO ACTIONS
+================================ */
+
+.hero-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.btn-hero-demo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 12px 22px;
+
+  border: 1px solid #124c46;
+  border-radius: 8px;
+
+  background: transparent;
+  color: #124c46;
+
+  font-family: inherit;
+  font-weight: 700;
+  text-decoration: none;
+
+  transition: 0.2s ease;
+}
+
+.btn-hero-demo:hover {
+  background: #124c46;
+  color: #ffffff;
+}
+
+@media (max-width: 650px) {
+  .hero-actions {
+    align-items: stretch;
+  }
+
+  .hero-actions .btn,
+  .hero-actions .btn-hero-demo {
+    text-align: center;
+  }
+}

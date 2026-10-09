@@ -11,7 +11,8 @@
     "hero": {
         "title": "Tranquilidad en<br>cada trayecto.",
         "description": "Conecta a padres y conductores en tiempo real. Monitorea paradas, recibe alertas de incidencias y mantén comunicación directa durante todo el traslado escolar.",
-        "download": "Descargar para padres"
+        "download": "Descargar para padres",
+        "demo": "Probar Demo"
     },
     "benefits": {
         "title": "<span class=\"marker\">Beneficios</span> diseñados para tu total tranquilidad",
@@ -111,7 +112,8 @@
     "cta": {
         "title": "Empieza a sentirte más tranquilo hoy",
         "description": "Descarga la app en tu teléfono inteligente o contáctanos para integrar a tu colegio.<br>Disponible para iOS y Android de forma gratuita.",
-        "download": "Descargar para padres"
+        "download": "Descargar para padres",
+        "demo": "Probar Demo"
     },
     "footer": {
         "description": "Coordinación y seguridad de transporte escolar en tiempo real. Uniendo familias, escuelas y conductores con tecnología confiable.",
