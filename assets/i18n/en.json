@@ -76,6 +76,20 @@
             "description": "Organize routes, stops, schedules and students easily from the platform."
         }
     },
+    "plans": {
+        "title": "Plans for every journey",
+        "subtitle": "Choose the option that best fits the way you use Rumbo.",
+        "available": "Available",
+        "freemium": {
+            "description": "A simple option to start using Rumbo and explore the platform's main tools."
+        },
+        "premium": {
+            "description": "Designed for drivers looking for a more complete experience to organize and review their trip information."
+        },
+        "plus": {
+            "description": "An expanded option for drivers who want to make the most of the tools available in Rumbo."
+        }
+    },
     "metrics": {
         "routes": "Safely completed routes",
         "uptime": "Live GPS service uptime",

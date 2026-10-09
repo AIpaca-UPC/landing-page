@@ -76,6 +76,20 @@
             "description": "Organiza recorridos, paradas, horarios y estudiantes de manera sencilla desde la plataforma."
         }
     },
+    "plans": {
+        "title": "Planes para cada recorrido",
+        "subtitle": "Elige la opción que mejor se adapte a la forma en que utilizas Rumbo.",
+        "available": "Disponible",
+        "freemium": {
+            "description": "Una opción sencilla para comenzar a utilizar Rumbo y conocer las herramientas principales de la plataforma."
+        },
+        "premium": {
+            "description": "Pensado para conductores que buscan una experiencia más completa para organizar y consultar la información de sus recorridos."
+        },
+        "plus": {
+            "description": "Una alternativa ampliada para conductores que desean aprovechar al máximo las herramientas disponibles en Rumbo."
+        }
+    },
     "metrics": {
         "routes": "Rutas completadas de forma segura",
         "uptime": "Uptime del servicio de GPS en vivo",
